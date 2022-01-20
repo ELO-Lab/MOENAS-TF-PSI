@@ -1,4 +1,4 @@
-# ...
+# Enhancing Multi-Objective Evolutionary Neural Architecture Search with Training-Free Pareto Local Search
 [![MIT licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
 
 Quan Minh Phan, Ngoc Hoang Luong
@@ -54,11 +54,18 @@ To experiment with the different `maximum_number_of_evaluations`, set in [*facto
 ```shell
 python evaluate.py  --path_results <path_results>
 ```
+For example:
+```shell
+python evaluate.py  --path_results .\results\NAS201-C10
+```
 ### Kolmogorov–Smirnov (KS) test
 ```shell
 python ks_test.py  --path_results <path_results>
 ```
-
+For example:
+```shell
+python ks_test.py  --path_results .\results\NAS201-C10
+```
 ***Note:*** `<path_results>` ***must only contains results of experiments are conducted on the same problem.***
 ## Acknowledgement
 Our source code is inspired by:
