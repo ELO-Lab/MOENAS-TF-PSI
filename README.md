@@ -3,7 +3,7 @@
 
 Quan Minh Phan, Ngoc Hoang Luong
 
-In Applied Intelligence 2021.
+<!-- In Applied Intelligence 2021. -->
 ## Setup
 - Clone this repo
 - Install dependencies:
