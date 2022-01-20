@@ -10,7 +10,7 @@ Quan Minh Phan, Ngoc Hoang Luong
 ```
 $ pip install -r requirements.txt
 ```
-- Although we utilize NAS-Bench-101 and NAS-Bench-201 for our experiments, we do not utilize directly their APIs to for the purpose of reduce the time and memory capability (fact: our experiments are conducted on a personal laptop). We thus downloaded the database of NAS-Bench-101 and NAS-Bench-201, modify their APIs, and using on our way. Therefore, to reproduce the results in the article, we have to download the data at first. Download data in [here](https://drive.google.com/drive/folders/1oNk21qWKs_8hmBBkM1ye0zAV-08LABaE?usp=sharing) and put into [*data*] folder
+- Although we utilize NAS-Bench-101 and NAS-Bench-201 for our experiments, we do not utilize directly their APIs for the purpose of reducing the time and memory capability (fact: our experiments are conducted on a personal laptop). We thus downloaded the database of NAS-Bench-101 and NAS-Bench-201, modify their APIs, and using on our way. Therefore, to reproduce the results in the article, we have to download the data at first. Download data in [here](https://drive.google.com/drive/folders/1oNk21qWKs_8hmBBkM1ye0zAV-08LABaE?usp=sharing) and put into [*data*] folder
 ## Usage
 ### Search
 ```shell
